@@ -1,10 +1,5 @@
 import { resourcesLinks, platformLinks, communityLinks } from "../constants";
-import {motion, 
-  spring, 
-  useInView, 
-  useMotionValueEvent, 
-  useScroll, 
-  useTransform} 
+import {motion} 
 from "framer-motion";
 
 const Footer = () => {

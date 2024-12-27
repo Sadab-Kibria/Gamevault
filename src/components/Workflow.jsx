@@ -1,12 +1,7 @@
 import { CheckCircle2 } from "lucide-react";
 import { checklistItems } from "../constants";
-import Raiden from "../assets/raiden.png";
-import {motion, 
-  spring, 
-  useInView, 
-  useMotionValueEvent, 
-  useScroll, 
-  useTransform} 
+import Minecraft from "../assets/minecraft.png";
+import {motion} 
 from "framer-motion"
 
 const Workflow = () => {
@@ -19,8 +14,8 @@ const Workflow = () => {
         </span>
       </h2>
       <div className="flex flex-wrap justify-center">
-        <div className="p-8 w-full lg:w-1/2 ">
-          <img src={Raiden} alt="Crysis" />
+        <div className="p-8 w-full lg:w-1/2">
+          <img src={Minecraft} alt="Crysis" />
         </div>
         <div className="pt-12 w-full lg:w-1/2">
           {checklistItems.map((item, index) => (

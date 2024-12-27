@@ -1,11 +1,6 @@
 import { CheckCircle2 } from "lucide-react";
 import { pricingOptions } from "../constants";
-import {motion, 
-  spring, 
-  useInView, 
-  useMotionValueEvent, 
-  useScroll, 
-  useTransform} 
+import {motion} 
 from "framer-motion";
 
 const Pricing = () => {

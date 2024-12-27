@@ -1,5 +1,6 @@
 import video3 from "../assets/Asphalt.mp4";
 import video4 from "../assets/Cod.mp4";
+import gif1 from "../assets/gif1.gif";
 import { AnimatePresence,motion, spring} from 'framer-motion';
 
 const HeroSection = () => {
@@ -50,7 +51,7 @@ const HeroSection = () => {
           Documentation
         </motion.a>
       </div>
-      <div className="flex mt-10 justify-center relative"
+      <div className="hidden lg:flex mt-10 justify-center relative"
       >
         <div className="absolute size-full inset-0 z-10"></div>
         <motion.video
@@ -79,6 +80,9 @@ const HeroSection = () => {
           <source src={video3} type="video/mp4" />
           Your browser does not support the video tag.
         </motion.video>
+      </div>
+      <div className="flex mt-10 justify-center relative">
+        <img src={gif1} alt="Gif" className="block rounded-lg w-full border border-orange-700 shadow-sm shadow-red-400 mx-2 my-4 overflow-hidden lg:hidden"/>
       </div>
       </AnimatePresence>
     </div>
